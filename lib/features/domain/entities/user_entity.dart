@@ -6,5 +6,5 @@ class UserEntity{
   final String email;
   final AddressEntity address;
 
-  UserEntity(this.name, this.phone, this.email, this.address);
+  UserEntity({required this.name,required this.phone,required this.email,required this.address});
 }

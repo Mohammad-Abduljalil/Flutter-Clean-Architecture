@@ -7,5 +7,5 @@ class AddressEntity{
   final String zipcode;
   final GeoEntity geo;
 
-  AddressEntity(this.street, this.suite, this.city, this.zipcode, this.geo);
+  AddressEntity({required this.street,required this.suite,required this.city,required this.zipcode,required this.geo} );
 }
