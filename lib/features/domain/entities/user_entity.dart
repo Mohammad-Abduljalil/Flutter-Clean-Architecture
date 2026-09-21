@@ -1,4 +1,4 @@
-import 'package:clean_architicture/features/domain/entities/user_entity.dart';
+import 'package:clean_architicture/features/domain/entities/sub_entities/address_entity.dart';
 
 class UserEntity{
   final String name;
